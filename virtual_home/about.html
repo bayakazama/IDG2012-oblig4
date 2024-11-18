@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Virtual Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header role="banner">
+        <h1>About My Virtual Home</h1>
+    </header>
+
+    <nav class="navigation" role="navigation" aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Interior</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" tabindex="-1" role="main">
+        <div class="banner">
+            <img src="pictures/futuristic-home-8397004_1280.jpg" alt="sleek and futuristic setting with a home logo in the center">
+        </div>
+
+        <section class="info-section">
+            <article class="info-card" aria-labelledby="vision-header">
+                <h2 id="vision-header" class="info-header">The Vision Behind My Virtual Home</h2>
+                <p class="info-description">
+                    "My Virtual Home" is a digital sanctuary created to merge the comforts of home with the limitless possibilities of technology.
+                    Designed with inclusivity and accessibility in mind, it offers personalized spaces, interactive AI tools,
+                    and a seamless experience for all users.
+                </p>
+            </article>
+
+            <table class="info-table" aria-labelledby="features-heading">
+                <caption id="features-heading">Features and Accessibility</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Space</th>
+                        <th scope="col">Features</th>
+                        <th scope="col">Personalization</th>
+                        <th scope="col">Accessibility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Living Room</td>
+                        <td>Holographic fireplace, ambient lighting</td>
+                        <td>Custom themes</td>
+                        <td>Screen reader support</td>
+                    </tr>
+                    <tr>
+                        <td>Workspace</td>
+                        <td>Floating screens, AI assistant</td>
+                        <td>Desk organization tools</td>
+                        <td>Keyboard navigation</td>
+                    </tr>
+                    <tr>
+                        <td>Garden</td>
+                        <td>Virtual plants, glowing pathways</td>
+                        <td>Customizable layouts</td>
+                        <td>Text-to-speech tools</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <article class="info-card" aria-labelledby="comfort-header">
+                <h2 id="comfort-header" class="info-header">Bringing Technology and Comfort Together</h2>
+                <p class="info-description">
+                    At "My Virtual Home," we believe that technology should enhance your life, not complicate it. By combining cutting-edge AI tools
+                    with a personalized and accessible design, we create spaces that feel both innovative and welcoming. Whether you're relaxing,
+                    working, or exploring, every detail is tailored to your unique needs.
+                </p>
+            </article>
+        </section>
+
+        <section class="form-section" aria-labelledby="feedback-heading">
+            <h2 id="feedback-heading" class="form-header">Share Your Feedback</h2>
+            <form aria-labelledby="feedback-heading">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter your full name" 
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your email address" 
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea 
+                        id="feedback" 
+                        name="feedback" 
+                        rows="4" 
+                        placeholder="Share your thoughts here" 
+                        required></textarea>
+                </div>
+                <button type="submit" class="form-button">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is the footer, marking the end of content for this page.</p>
+    </footer>
+
+</body>
+</html>
